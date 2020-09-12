@@ -6,3 +6,4 @@ link do curso [Python Pro](https://www.python.pro.br/)
 Tópio Abordados:
  1. Git
  2. Virtualenv 
+ 3. Pip
