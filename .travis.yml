@@ -3,7 +3,6 @@ python:
   - 3.8.5
   - 2.7.18
 install:
-  - python3 -m pip install --upgrade pip
   - pip install -r requirements-dev.txt
 script:
   - flake8
