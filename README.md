@@ -2,6 +2,7 @@
 Módulo de Estudo na construção de projetos Python no curso Pytools
 
 link do curso [Python Pro](https://www.python.pro.br/)
+[![Build Status](https://travis-ci.org/tarcisosantos/libpythonpro.svg?branch=master)](https://travis-ci.org/tarcisosantos/libpythonpro)
 
 Suportada versão 3 do Python
 
