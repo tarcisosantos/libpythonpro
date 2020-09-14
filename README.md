@@ -6,6 +6,7 @@ link do curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://travis-ci.org/tarcisosantos/libpythonpro.svg?branch=master)](https://travis-ci.org/tarcisosantos/libpythonpro)
 [![Updates](https://pyup.io/repos/github/tarcisosantos/libpythonpro/shield.svg)](https://pyup.io/repos/github/tarcisosantos/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/tarcisosantos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/tarcisosantos/libpythonpro/)
+[![codecov](https://codecov.io/gh/tarcisosantos/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/tarcisosantos/libpythonpro)
 
 Suportada versão 3 do Python
 
