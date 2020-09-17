@@ -19,14 +19,14 @@ def sessao(conexao):
     sessao_obj.fechar()
 
 def test_salvar_usuario(sessao):
-    usuario = Usuario(nome='Tarciso Santos')
+    usuario = Usuario(nome='Tarciso Santos', email='bentessantostarciso@gmail.com')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
 
 def test_listar_usuario(sessao):
     usuarios = [
-        Usuario(nome='Tarciso Santos'),
-        Usuario(nome='Paula Tais')
+        Usuario(nome='Tarciso Santos', email='bentessantostarciso@gmail.com'),
+        Usuario(nome='Paula Tais', email='bentessantostarciso@gmail.com')
     ]
     for usuario in usuarios:
         sessao.salvar(usuario)
