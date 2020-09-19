@@ -11,6 +11,7 @@ def test_criar_enviador_de_email():
     'destinatario',
     ['tarcisosantos@meta.edu.br', 'bentessantostarciso@gmail.com']
 )
+
 def test_remetente(destinatario):
     enviador = Enviador()
     resultado = enviador.enviar(
