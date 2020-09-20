@@ -29,6 +29,7 @@ def test_qde_de_spam(sessao, usuarios):
     )
     assert len(usuarios) == enviador.enviar.call_count
 
+
 def test_parametros_de_spam(sessao):
     usuario = Usuario(nome='Tarciso Santos', email='bentessantostarciso@gmail.com')
     sessao.salvar(usuario)
